@@ -1,0 +1,57 @@
+:root{
+    --Gold:#CD9B1E;
+}
+.navigation{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    align-items: center;
+    padding: 0 30px;
+    /* background-color: rgba(0, 0, 0, 0.555);
+    box-shadow: 0px 0px 10px 10px rgb(0, 0, 0); */
+    border-radius: 12px;
+}
+nav{
+    padding: 20px ;
+    position: fixed;
+}
+nav .logo{
+    width: 150px;
+    transition: all 0.3s ease-in;
+}
+nav .logo img{
+    width: 100%;
+    /* position: absolute; */
+}
+nav .list{
+    transition: all 0.3s ease-in;
+}
+nav .list ul{
+    list-style: none;
+    display: flex;
+    gap: 20px   ;
+    /* margin-left: 150px; */
+}
+nav .list ul li a{
+    text-decoration: none;
+    font-size: 50px;
+    color: var(--Gold);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s;
+}
+nav .list ul li a i{
+    font-size: 20px;
+}
+nav .icon i{
+    color: var(--Gold);
+    font-size: 30px;
+    padding-top: 20px;
+}
+.list ul li:hover a{
+    color: white;
+    transform: translateY(2px);
+    transition: all 0.3s;
+}
