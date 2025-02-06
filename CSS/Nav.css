@@ -14,17 +14,17 @@
 nav{
     padding: 20px ;
     position: fixed;
+    z-index: 100000;
 }
 nav .logo{
     width: 150px;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s;
 }
 nav .logo img{
     width: 100%;
-    /* position: absolute; */
 }
 nav .list{
-    transition: all 0.3s ease-in;
+    transition: all 0.3s;
 }
 nav .list ul{
     list-style: none;
@@ -54,4 +54,16 @@ nav .icon i{
     color: white;
     transform: translateY(2px);
     transition: all 0.3s;
+}
+#Horas{
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    width: 150px;
+    border-radius: 12px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+#img{
+    position: relative;
 }
